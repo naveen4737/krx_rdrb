@@ -12,6 +12,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
 
     <title>Hello, world!</title>
+
+    <!-- <style>
+      /* Custom styles for the carousel indicators */
+      .carousel-indicators {
+        position: relative;
+        bottom: -20px;
+      }
+      .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000; /* Circle outline color */
+        border-radius: 50%;
+        background-color: transparent; /* Transparent background */
+        margin: 0 10px; /* Space between indicators */
+        padding: 1px; /* Space inside the border */
+        box-sizing: content-box; /* Includes padding inside the element dimensions */
+        transition: background-color 0.3s, transform 0.3s, border 0.3s;
+      }
+      .carousel-indicators .active {
+        background-color: #000; /* Filled background for the active indicator */
+        border: 2px solid #000; /* Keep border consistent on the active indicator */
+        transform: scale(1.2); /* Slightly larger active indicator */
+      }
+    </style> -->
+
   </head>
   <body class="">
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: #F5F8FB;">
@@ -93,7 +118,7 @@
         <!-- Image Container -->
           <div style="max-width: 934px; height: 546px; border-radius: 17.79px 0px 0px 0px; overflow: hidden;">
             <img src="./assets/images/Talent search bias.png" alt="Talent search bias" style="width: 100%; height: 100%; object-fit: fill;">
-          </div>          
+          </div>
         </div>        
       </div>
     </div>
@@ -154,6 +179,211 @@
         </div>
       </div>
     </div>
+
+
+    <div id="sixth_part" style="padding-top: 80px; max-width: 934px; margin: auto;">
+      <!-- Container for the section -->
+      <div style="display: flex; flex-direction: column; gap: 44px;">
+        <!-- Section Title -->
+        <div style="display: flex; gap: 24px; flex-direction: column;">
+          <div style="font-family: 'Inter', sans-serif; font-size: 36px; font-weight: 600; line-height: 44.54px; text-align: left;">
+            Let’s get rollin’ and get this done😎 <span>(wish if it’s that easy🥲)</span>
+          </div>
+          
+          <div style="max-width: 934px; border-radius: 0px 0px 0px 0px; overflow: hidden;">
+            <img src="./assets/images/Frame 1410102237.png" alt="Talent search bias" style="width: 100%; height: 100%; object-fit: fill;">
+          </div>
+        </div>
+
+        <div style="font-family: Inter; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none; border: 1px solid black; border-radius: 16px; padding: 16px; ">
+          Key insight: Upon analyzing search query logs we found that <b>56%</b> of searches resulted in zero matches due to strict filters.
+        </div>
+        
+        <div style="max-width: 934px; border-radius: 0px 0px 0px 0px; overflow: hidden;">
+          <img src="./assets/images/Frame 1410102237 (2).png" alt="Talent search bias" style="width: 100%; height: 100%; object-fit: fill;">
+        </div>
+        
+        <div style="max-width: 934px; border-radius: 0px 0px 0px 0px; overflow: hidden;">
+          <img src="./assets/images/Frame 1410102238.png" alt="Talent search bias" style="width: 100%; height: 100%; object-fit: fill;">
+        </div>
+
+        <div style="font-family: Inter; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none; border: 1px solid black; border-radius: 16px; padding: 16px; ">
+          Key insight: Users don't mind approximate matches and it broadens their search scope.
+        </div>        
+      </div>
+
+      <div id="seventh_part" style="padding-top: 80px; max-width: 934px; margin: auto;">
+        <!-- Container for the section -->
+        <div style="display: flex; flex-direction: column; gap: 44px;">
+          <!-- Section Title -->
+          <div style="display: flex; gap: 24px; flex-direction: column;">
+            <div style="font-family: 'Inter', sans-serif; font-size: 36px; font-weight: 600; line-height: 44.54px; text-align: left;">
+              Ideation and Brainstorming⚡
+            </div>
+            <!-- Description -->
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; max-width: 934px;">
+              Interacted with engineers and product managers to understand current filter processing and combination mechanism that comes in action while initiating search query.
+            </div>
+          </div>
+          <div style="max-width: 934px; border-radius: 0px 0px 0px 0px; overflow: hidden;">
+            <div class="row">
+              <!-- First Image -->
+              <div class="col-md-6 col-12 mb-3" style="padding: 0; padding-right: 5px;">
+                <div style="border-radius: 0px; overflow: hidden;">
+                  <img src="./assets/images/image 1206.png" alt="Talent search bias 1" style="width: 100%; height: auto; object-fit: fill;">
+                </div>
+              </div>
+              
+              <!-- Second Image -->
+              <div class="col-md-6 col-12 mb-3" style="padding: 0; padding-left: 5px">
+                <div style="border-radius: 0px; overflow: hidden;">
+                  <img src="./assets/images/image 1207.png" alt="Talent search bias 2" style="width: 100%; height: auto; object-fit: fill;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 24px; flex-direction: column;">
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 600; line-height: 22.68px; text-align: left; max-width: 934px;">
+              What we learned?
+            </div>
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; max-width: 934px; border: 1px solid black; border-radius: 16px; padding: 16px;">
+              In our system filter combinations works under <b>“AND”</b> condition for emphasizing relevancy
+            </div>
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; max-width: 934px; border: 1px solid black; border-radius: 16px; padding: 16px;">
+              Due to large scope of filters and small amount of data most of the queries results in <b>Null value</b>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 24px; flex-direction: column;">
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 600; line-height: 22.68px; text-align: left; max-width: 934px;">
+              What we did?
+            </div>
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; max-width: 934px; border: 1px solid black; border-radius: 16px; padding: 16px;">
+              Limited the scope of filters and kept only the most widely used <b>(found through secondary research)</b>
+            </div>
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; max-width: 934px; border: 1px solid black; border-radius: 16px; padding: 16px;">
+              Created the new combination of filter queries through stacking <b>“OR”</b> and <b>“AND”</b> conditions
+            </div>
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; max-width: 934px; border: 1px solid black; border-radius: 16px; padding: 16px;">
+              💡Bonus idea:  We leveraged <b>AI</b> to provide more <b>relevant suggestions</b> from our database for search queries, <b>broadening</b> the results
+            </div>
+          </div>
+
+          <div style="border-radius: 0px; overflow: hidden;">
+            <img src="./assets/images/Frame 29484.png" alt="Talent search bias 1" style="width: 100%; height: auto; object-fit: fill;">
+          </div>
+        </div>
+      </div>
+
+      <div id="eigth_part" style="padding-top: 80px; max-width: 934px; margin: auto;">
+        <!-- Container for the section -->
+        <div style="display: flex; flex-direction: column; gap: 44px;">
+
+          <!-- Section Title -->
+          <div style="display: flex; gap: 24px; flex-direction: column;">
+            <div style="font-family: 'Inter', sans-serif; font-size: 36px; font-weight: 600; line-height: 44.54px; text-align: left;">
+              Solution design
+            </div>
+            <!-- Description -->
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; max-width: 934px;">
+              Now for the final search UX logic flow; we combined these solutions into a cohesive fallback mechanism.
+            </div>
+          </div>
+
+          <div style="max-width: 934px; border-radius: 0px 0px 0px 0px; overflow: hidden;">
+            <img src="./assets/images/Frame 1410102395.png" alt="Talent search bias" style="width: 100%; height: 100%; object-fit: fill;">
+          </div>
+          
+          <div style="max-width: 934px; border-radius: 0px 0px 0px 0px; overflow: hidden;">
+            <img src="./assets/images/image 1205.png" alt="Talent search bias" style="width: 100%; height: 100%; object-fit: fill;">
+          </div>
+        </div>
+      </div>
+
+      <div id="ninth_part" style="padding-top: 80px; max-width: 934px; margin: auto;">
+        <!-- Container for the section -->
+        <div style="display: flex; flex-direction: column; gap: 44px;">
+
+          <!-- Section Title -->
+          <div style="display: flex; gap: 24px; flex-direction: column;">
+            <div style="font-family: 'Inter', sans-serif; font-size: 36px; font-weight: 600; line-height: 44.54px; text-align: left;">
+              Here come’s the new and better search engine🤓
+            </div>
+            <!-- Description -->
+            <div style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 400; line-height: 22.68px; text-align: left; max-width: 934px;">
+              Keep swiping these screens are structured flow wise...😄
+            </div>
+          </div>
+
+          <div id="imageCarousel" class="carousel slide" data-ride="carousel" style="max-width: 100%; margin: auto; padding: 0px;">
+            <!-- Indicators -->
+            <ol class="carousel-indicators" style="bottom: -40px;">
+              <div style="border: 1px solid black; margin: 5px; border-radius: 50%;"><li data-target="#imageCarousel" data-slide-to="0" class="active" style="width: 10px; height: 10px; background-color: none; border-radius: 50%; padding: 0px; margin: 2px; border: 0px;"></li></div>
+              <div style="border: 1px solid black; margin: 5px; border-radius: 50%;"><li data-target="#imageCarousel" data-slide-to="1" style="width: 10px; height: 10px; background-color: none; border-radius: 50%; padding: 0px; margin: 2px; border: 0px;"></li></div>
+              <div style="border: 1px solid black; margin: 5px; border-radius: 50%;"><li data-target="#imageCarousel" data-slide-to="2" style="width: 10px; height: 10px; background-color: none; border-radius: 50%; padding: 0px; margin: 2px; border: 0px;"></li></div>
+              <div style="border: 1px solid black; margin: 5px; border-radius: 50%;"><li data-target="#imageCarousel" data-slide-to="3" style="width: 10px; height: 10px; background-color: none; border-radius: 50%; padding: 0px; margin: 2px; border: 0px;"></li></div>
+            </ol>
+            <!-- <ol class="carousel-indicators" style="bottom: -40px; display: flex; justify-content: center;">
+              <div style="border: 1px solid black; margin: 5px; border-radius: 50%;">
+                <li
+                  data-target="#imageCarousel"
+                  data-slide-to="0"
+                  class="active"
+                  style="width: 10px; height: 10px; border-radius: 50%; margin: 2px; background-color: black;"
+                ></li>
+              </div>
+              <div style="border: 1px solid black; margin: 5px; border-radius: 50%;">
+                <li
+                  data-target="#imageCarousel"
+                  data-slide-to="1"
+                  style="width: 10px; height: 10px; border-radius: 50%; margin: 2px; background-color: transparent;"
+                ></li>
+              </div>
+              <div style="border: 1px solid black; margin: 5px; border-radius: 50%;">
+                <li
+                  data-target="#imageCarousel"
+                  data-slide-to="2"
+                  style="width: 10px; height: 10px; border-radius: 50%; margin: 2px; background-color: transparent;"
+                ></li>
+              </div>
+              <div style="border: 1px solid black; margin: 5px; border-radius: 50%;">
+                <li
+                  data-target="#imageCarousel"
+                  data-slide-to="3"
+                  style="width: 10px; height: 10px; border-radius: 50%; margin: 2px; background-color: transparent;"
+                ></li>
+              </div>
+            </ol> -->
+          
+            <!-- Carousel Items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/Default.png" class="d-block w-100" alt="Image 1" style="border-radius: 10px; height: 648px;">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/NLP query.png" class="d-block w-100" alt="Image 2" style="border-radius: 10px; height: 648px;">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/Results.png" class="d-block w-100" alt="Image 3" style="border-radius: 10px; height: 648px;">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/Filters.png" class="d-block w-100" alt="Image 3" style="border-radius: 10px; height: 648px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tenth_part">
+        
+      </div>
+
+
+    </div>
+
+    
+
     
 
     <!-- Optional JavaScript -->
@@ -161,5 +391,54 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <script>
+      // // Add event listener to the carousel
+      // document.addEventListener('DOMContentLoaded', function () {
+      //   // Select the active indicator
+      //   const activeIndicator = document.querySelector('.carousel-indicators .active');
+        
+      //   // Ensure it has a black background
+      //   if (activeIndicator) {
+      //     activeIndicator.style.backgroundColor = 'black';
+      //   }
+      // });
+      // document.addEventListener('DOMContentLoaded', function () {
+      //   const carouselElement = document.getElementById('imageCarousel');
+      //   const indicators = document.querySelectorAll('.carousel-indicators li');
+
+      //   // Debugging: Check if carouselElement is defined
+      //   if (!carouselElement) {
+      //     console.error("Carousel element not found!");
+      //     return;
+      //   }
+
+      //   // Function to update active button's background
+      //   function updateActiveButton() {
+      //     console.log("Updating active button...");
+      //     indicators.forEach((indicator) => {
+      //       if (indicator.classList.contains('active')) {
+      //         indicator.style.backgroundColor = 'black';
+      //       } else {
+      //         indicator.style.backgroundColor = 'transparent';
+      //       }
+      //     });
+      //   }
+
+      //   // Debugging: Add event listener and check
+      //   carouselElement.addEventListener('slid.bs.carousel', function () {
+      //     console.log("Carousel slide event triggered!");
+      //     updateActiveButton();
+      //   });
+
+      //   // Initial update on page load
+      //   updateActiveButton();
+      //   // setInterval(updateActiveButton, 2000); // Calls every 2 seconds
+      // });
+
+
+
+    </script>
   </body>
 </html>
